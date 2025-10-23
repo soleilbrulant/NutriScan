@@ -1,8 +1,12 @@
-'use client';
+ 'use client';
 
 import React, { useState, useEffect } from 'react';
 import { useRouter } from 'next/navigation';
-import { Search, Calendar, Utensils, TrendingUp, Filter } from 'lucide-react';
+import Search from 'lucide-react/dist/esm/icons/search';
+import Calendar from 'lucide-react/dist/esm/icons/calendar';
+import Utensils from 'lucide-react/dist/esm/icons/utensils';
+import TrendingUp from 'lucide-react/dist/esm/icons/trending-up';
+import Filter from 'lucide-react/dist/esm/icons/filter';
 import { useAuth } from '@/contexts/AuthContext';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
