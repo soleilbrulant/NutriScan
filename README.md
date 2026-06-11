@@ -85,7 +85,7 @@ NutriScan is a comprehensive nutrition management platform that leverages cuttin
 
 #### 1. Clone the Repository
 ```bash
-git clone https://github.com/aamrindersingh/NutriScan-backend.git
+git clone https://github.com/soleilbrulant/NutriScan-backend.git
 cd NutriScan-backend
 ```
 
